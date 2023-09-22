@@ -1,0 +1,40 @@
+@media(max-width:1300px){
+    .hero-sec .container {
+        width: 85%;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 100px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .hero-sec p{
+        padding-right: 20px;
+    }
+    }
+
+@media(max-width:1090px){
+.hero-sec .container {
+    width: 85%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+}
+@media(max-width:786px){
+
+    .best-selling .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:576px){
+    .hero-content h1{
+        font-size: 60px;
+    }
+    .best-selling .container {
+        grid-template-columns: 1fr;
+    }
+}
