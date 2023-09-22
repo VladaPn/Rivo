@@ -57,6 +57,13 @@ a.icon {
       .false-nav {
         display: block !important;
     }
+    .cart-img{
+        display: none;
+    }
+    .logi{
+        padding-right: 5px;
+        max-width: 19%;
+    }
       
 }
 @media(max-width:786px){
